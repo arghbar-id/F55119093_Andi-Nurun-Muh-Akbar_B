@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        /* CSS internal*/
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 300px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #00796b;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio img:hover {
+            transform: scale(1.08);
+        }
+
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #80cbc4;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <h1>Profil Saya</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tentang-saya">Tentang Saya</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+  
+    <div class="container">
+
+        <section class="column" id="tentang-saya">
+            <h2>Tentang Saya</h2>
+            <p>Halo, nama saya Akbar. Saya adalah mahasiswa angkatan 2019 di Program Studi Teknik Informatika, Universitas Tadulako. Saya memiliki ketertarikan mendalam pada teknologi dan pemrograman, serta selalu antusias untuk memperluas pengetahuan di bidang ini. Saat ini, saya tengah fokus pada pengembangan keterampilan dalam pemrograman dan kecerdasan buatan. Di luar kuliah, saya sering menghabiskan waktu untuk membaca, bermain futsal dengan teman-teman untuk tetap aktif, dan kadang-kadang bepergian untuk melihat budaya serta tempat-tempat baru yang unik.</p>
+        </section>
+
+        <section class="column" id="portofolio">
+            <h2>Portofolio</h2>
+            <div class="portfolio">
+                <img src="img tugas/20180914_011825.jpg" alt="Proyek 1">
+                <img src="img tugas/20201709_12.JPG" alt="Proyek 2">
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <p>Kontak Saya: rabkabamsa@gmail.com</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
